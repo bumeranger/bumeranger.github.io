@@ -1,6 +1,30 @@
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="styles.css" />
-</head>
-<body></body>
-</html>
+body {
+ background-color: black;
+ color: white;
+}
+h1 {
+font-size: 20px;
+}
+p {
+font-size: 12px;
+ color: green;
+ 
+}
+
+.borderdots{
+	border-style: dotted;
+	  border-width: 2px;
+	height: 100px;
+  width: 100px
+}
+
+
+ol{
+    list-style-type: lower-latin;
+}
+
+
+ul {
+  list-style-type: square;
+ 
+}
