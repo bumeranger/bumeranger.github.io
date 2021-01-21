@@ -3,11 +3,12 @@ body {
  color: white;
 }
 h1 {
-font-size: 20px;
+font-size: 30px;
+border-radius: 10px;
 }
 p {
 font-size: 12px;
- color: green;
+ color: blue;
  
 }
 
@@ -28,5 +29,4 @@ ul {
   list-style-type: square;
  
 }
-h1 { border-radius: 15px;
-}
+
