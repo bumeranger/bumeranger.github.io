@@ -1,6 +1,6 @@
 body {
  background-color: lightgrey;
- color: white;
+ color: black;
 }
 h1 {
 font-size: 30px;
@@ -9,6 +9,7 @@ border-radius: 10px;
 p {
 font-size: 12px;
  color: blue;
+ border-radius: 10px;
  
 }
 
