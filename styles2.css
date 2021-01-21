@@ -14,9 +14,9 @@ font-size: 12px;
 
 .borderdots{
 	border-style: dotted;
-	  border-width: 2px;
-	height: 100px;
-  width: 100px
+	  border-width: 3px;
+	height: 150px;
+  width: 150px
 }
 
 
