@@ -11,6 +11,10 @@ border-radius: 15px;
 p {
 font-size: 12px;
  color: blue;
+ border: 5px solid yellow;
+border-radius: 25px;
+ background-color: white;
+
 
  
 }
