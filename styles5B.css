@@ -1,16 +1,3 @@
-/* This is a single-line comment */
-
-
-
-<style>
-
-body {
-width: 90%;
-margin-left: auto;
-margin-right: auto;
-} 
-
-
 
 #header {
 background-color:grey;
@@ -18,6 +5,7 @@ color:white;
 text-align:center;
 padding:10px;
 }
+
 #nav {
 line-height:30px;
 background-color:green;
@@ -41,7 +29,6 @@ float:right;
 padding:10px;
 width:30%;
 height:100px;
-
 }
 
 #article {
@@ -59,11 +46,3 @@ clear:both;
 text-align:center;
 padding:5px;
 }
-
-
-
-
-
-
-
-</style>
