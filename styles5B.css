@@ -1,4 +1,10 @@
 
+body {
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+
 #header {
 background-color:grey;
 color:white;
