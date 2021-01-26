@@ -1,11 +1,17 @@
-
-
 /* This is a single-line comment */
 
 
 
-
 <style>
+
+body {
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+} 
+
+
+
 #header {
 background-color:black;
 color:white;
@@ -27,7 +33,7 @@ height:50px;
 width:70%;
 float:left;
 padding:10px;
-
+}
 
 #aside {
 	
