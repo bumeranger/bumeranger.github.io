@@ -15,16 +15,27 @@ padding:5px;
 #nav {
 line-height:30px;
 background-color:#eeeeee;
-height:300px;
-width:100px;
-float:left;
-padding:5px;
+height:200px;
+width:100%;
+float:center;
+padding:10px;
 }
 #section {
-width:350px;
+width:70%;
+float:left;
+padding:10px;
+
+
+#article {
+width:70%;
 float:left;
 padding:10px;
 }
+#aside {
+width:30%;
+float:right;
+padding:10px;
+
 #footer {
 background-color:black;
 color:white;
