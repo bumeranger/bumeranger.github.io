@@ -32,9 +32,11 @@ padding:10px;
 #aside {
 	
 	background-color:#01818D;
+	  position: relative;
+  right: 30%;
 width:70%;
 height:100px;
-float:right;
+
 padding:10px;
 }
 #article {
