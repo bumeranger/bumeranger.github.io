@@ -18,6 +18,7 @@ background-color: #413f4b;
 height:25px;
 text-align:center;
 padding:10px;
+list-style-type: circle;
 }
 
 #article {
@@ -44,6 +45,13 @@ clear:both;
 text-align:center;
 padding:5px;
 }
+
+a {text-decoration: none;}
+ul {list-style-type: none;}
+
+
+
+
 
 
 
