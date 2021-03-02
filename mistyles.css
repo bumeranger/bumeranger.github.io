@@ -1,0 +1,20 @@
+.row {
+ background-color: gray;
+ height: ;
+ color: white;
+ text-align: center;
+ border: 5px solid white;
+ padding: 10px;
+}
+
+
+.navbar-header {
+  text-align: left;
+  }
+  .footer{
+ background-color: grey;
+ color: white;
+ text-align: center;
+  padding: 5px;
+
+}
