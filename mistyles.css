@@ -1,20 +1,70 @@
-.row {
- background-color: gray;
- height: ;
- color: white;
- text-align: center;
- border: 5px solid white;
- padding: 10px;
+.logo {
+	float: left;
+	padding: 8px;
+	border-right: 1px solid black !important;
 }
-
-
-.navbar-header {
-  text-align: left;
+.border {
+	border: 1px solid black !important;
+}
+.center {
+	text-align: center;
+}
+.container{
+	margin-bottom: 20px;
+  padding-bottom: 10px;
   }
-  .footer{
- background-color: grey;
- color: white;
- text-align: center;
-  padding: 5px;
-
+  
+.row {
+	margin-bottom: 10px;
+    background-color: #d6d6d8;
+  text-align: center;
+  padding-bottom: 15px;
 }
+.placeholder-img {
+	width: 100px;
+	height: 100px;
+	margin: 0 20px 0 20px;
+	background: #d6d6d8;
+	border: 1px solid black !important;
+}
+.placeholder-img.large {
+	width: 200px;
+	height: 150px;
+}
+.center .placeholder-img {
+	margin: 0 auto 20px auto;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.placeholder-img.right {
+	margin-right: 0;
+}
+.placeholder-img.left {
+	margin-left: 0;
+}
+.full-width {
+	width: 100%;
+}
+.nav-link.active {
+	color: black;
+}
+.section {
+	clear: both;
+}
+.col-sm-12{
+  background-color: #d6d6d8;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.jumbotron{
+   background-color: #d6d6d8;
+  text-align: center;
+  }
+  .col-sm-4{
+    height: 100px;
+    
+  }
