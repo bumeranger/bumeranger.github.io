@@ -20,13 +20,15 @@ background-size: cover;
 
 
 #links1 a:link {
-  color: black;
+  color: blue;
+    transition: all 0.8s linear;
 }
 #links1 a:visited {
   color: green;
+    transition: all 0.8s linear;
 }
 #links1 a:hover {
-  color: red;
+  color: black;
 }
 
 
