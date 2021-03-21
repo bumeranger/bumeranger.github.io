@@ -15,5 +15,18 @@
 #list1{
 background-image: url("https://images.freeimages.com/images/large-previews/2a7/polly-background-1631651.jpg");
 background-size: cover;
- 
 }
+
+
+
+#links1 a:link {
+  color: black;
+}
+#links1 a:visited {
+  color: green;
+}
+#links1 a:hover {
+  color: red;
+}
+
+
