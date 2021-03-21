@@ -1,0 +1,19 @@
+#myHeader {
+  background-color: #6e86aa;
+  color: black;
+  padding: 40px;
+  text-align: center;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+} 
+#text1{
+  
+   text-shadow: 6px 6px #746c75;
+}
+
+#list1{
+background-image: url("https://images.freeimages.com/images/large-previews/2a7/polly-background-1631651.jpg");
+background-size: cover;
+ 
+}
