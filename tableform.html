@@ -2,13 +2,13 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>My HTML table / Tableform</title>
+        <title>My HTML table</title>
     </head>
     <body>
       
       <h1>NHL: Chicago Blackhawks statistics</h1>
 
-<table style="width:100%">
+<table >
 <caption>Regular season 1995-1996 </caption>
   <tr>
     <th>Player</th>
@@ -80,6 +80,9 @@
  </table>
    <H2>Do you have questions about services or products?</H2>
          <form action="Add new user" method="post">
+         <fieldset>
+         
+         <legend>Your information</legend>
          First name: <br>
              <input type = "text" name = "first_name" required />
          <br>
@@ -89,8 +92,10 @@
              <br>
          Email Address:
              <br><input type = "email" name = "email" required />
+             </fieldset>
          <br>
              <br>
+             <fieldset>
           Your message: <br />
          <textarea rows = "4" cols = "80" name = "description">
             Write your message here..
@@ -99,11 +104,13 @@
          <input type = "checkbox" name = "newsletter" value = "on"> Signup for our newsletter
          <br>
               <br>
-             I'd like to know more about:     <select name = "dropdown">
+             I'd like to know more about:     
+                 <select name = "dropdown">
             <option value = "products" selected>products</option>
             <option value = "services">services</option>
              <option value = "feedback">feedback</option>
          </select>
+                 </fieldset>
          <br>
          <input type="submit">
       </form>
