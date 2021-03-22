@@ -5,20 +5,20 @@ margin-left: auto;
 margin-right: auto;
 }
 
-#header {
+header {
 background-color:grey;
 color:white;
 text-align:center;
 padding:5px;
 }
-#nav {
+nav {
 line-height:30px;
 background-color:green;
 height:25px;
 text-align:center;
 padding:10px;
 }
-#section {
+section {
 background-color:#444C69;
 height:50px;
 width:55%;
@@ -26,7 +26,7 @@ float:left;
 padding:10px;
 }
 
-#article {
+article {
 background-color:#f199ff;
 height:50px;
 width:55%;
@@ -34,7 +34,7 @@ float:left;
 padding:10px;
 }
 
-#aside {
+aside {
 background-color:#01818D;
 float:right;
 padding:20px;
@@ -45,11 +45,17 @@ height:100px;
 
 
 
-#footer {
+footer {
 background-color:black;
 color:white;
 clear:both;
 text-align:center;
 padding:5px;
 }
+
+
+
+
+
+
 
