@@ -38,9 +38,13 @@ color: #ffffff;
     border-top-left-radius: 80px 80px;
     border-bottom-right-radius: 80px 80px;
 }
-.col-md-4{
+#demo{
+     padding-top: 122px;
     
-    margin-top: 100px;
+}
+.container{
+    
+    margin-top: 50px;
 }
 body{
     
