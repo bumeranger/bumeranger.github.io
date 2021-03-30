@@ -1,0 +1,160 @@
+<DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oppimistehtävä 1</title>
+    
+    
+    
+    
+    <!--bootsrapin CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
+    
+ <link rel="stylesheet" type="text/css" href="ravintolatyyli.css" />   
+    
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+</script>
+
+<!-- bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+</script>
+    <!-- Google Fonts -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Atma:wght@300&display=swap" rel="stylesheet"> 
+    
+    
+       
+    </head>
+    
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
+	<a class="navbar-brand" href="#">
+        <img src="http://myy.haaga-helia.fi/~jaami/ravintolakuvat/logo.png" alt="logo"      >
+         Tico Restaurant
+            </a>
+
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+        </button>
+
+  	     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    	<ul class="navbar-nav mr-auto">
+            
+      	<li class="nav-item">
+            <a class="nav-link" href="#">Etusivu</a>
+      	</li>
+            
+      	<li class="nav-item">
+        <a class="nav-link" href="#ravintola">Ravintola</a>
+      	</li>
+            
+      	<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Lounas</a>
+          <a class="dropdown-item" href="#">A la carte</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Juomat </a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Yhteystiedot</a>
+      </li>
+    </ul>
+    
+    </div>
+    </nav>
+        <!-- Karuselli -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="http://myy.haaga-helia.fi/~jaami/ravintolakuvat/annos1.jpg" alt="Annos1" width="1100" height= "500">
+         <div class="carousel-caption">
+          <h3>Maukas lounas</h3>
+              <p>
+              Herkullista kotiruokaa arkisin!
+              </p>
+          </div>
+    </div>
+    <div class="carousel-item">
+      <img src="http://myy.haaga-helia.fi/~jaami/ravintolakuvat/annos2.jpg" alt="Annos2" width="1100" height= "500">
+         <div class="carousel-caption">
+          <h3>Kotimaisista raaka-aineista!</h3>
+              <p>
+              Herkullista kotiruokaa arkisin!
+              </p>
+          </div>
+    </div>
+    <div class="carousel-item">
+      <img src="http://myy.haaga-helia.fi/~jaami/ravintolakuvat/annos3.jpg" alt="Annos3" width="1100" height= "500">
+         <div class="carousel-caption">
+          <h3>Maukas lounas</h3>
+              <p>
+              Herkullista kotiruokaa arkisin!
+              </p>
+          </div>
+    </div>
+      <div class="carousel-item">
+      <img src="http://myy.haaga-helia.fi/~jaami/ravintolakuvat/annos14.jpg" alt="Annos4" width="1100" height= "500">
+          <div class="carousel-caption">
+          <h3>Tule ja nauti</h3>
+              <p>
+              Herkullista kotiruokaa arkisin!
+              </p>
+          </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+        
+        
+        <!-- GRID rakenne -->
+        
+        <div class="container" id="ravintola">    
+<div class="row">
+<div class="col-md-4"><img src="http://myy.haaga-helia.fi/~jaami/ravintolakuvat/ravintola1.jpg"> </div>
+    
+    
+    
+<div class="col-md-4">
+    <h1>Ruokailua ja seurustelua</h1>
+    <p>
+    Kokeneet kokkimme ja ystävälliset tarjoilijamme palvelevat aitoja makuelämyksiä etsiviä. Ravintolassamme vietät mukavan illan hyvien ruokien ääressä pidemmän kaavan mukaan tai ihan vain muutaman lasillisen ääressä. Meille voivat tulla ruokailemaan asiakkaat aina vauvasta vaariin niin arki- kuin juhlatunnelmissa. Tervetuloa!
+    </p>
+
+</div>
+<div class="col-md-4"> <img src="http://myy.haaga-helia.fi/~jaami/ravintolakuvat/poyta1.jpg"> </div>
+</div> 
+</div>
+
+        
+        
+    </body>

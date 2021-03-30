@@ -1,0 +1,48 @@
+/* taustan väri */
+.navbar-custom {
+background-color: rgba(137,17,76,0.9);
+font-family: 'Atma', cursive;
+    font-size: 20px;
+}
+/* brandin ja tekstin väri */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+font-size: 40px;
+color: rgba(241,135,187, 0.8);
+}
+/* linkin väri */
+.navbar-custom .navbar-nav .nav-link {
+color: rgba(241,135,187, 0.8);
+}
+/* aktiivisen & hover-linkin väri */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+color: #ffffff;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.nav-item .dropdown-menu a:hover {
+            color: white !important;
+            background: pink !important;
+            cursor: pointer;
+  }
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px; }
+#ravintola img{
+    
+    width: 100%;
+    max-width: 500px;
+    border-top-left-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+}
+.col-md-4{
+    
+    margin-top: 100px;
+}
+body{
+    
+    background-color: rgba(137,17,76,0.9);
+}
