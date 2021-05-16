@@ -1,0 +1,47 @@
+<DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oppimistehtävä 4</title>
+    
+        </head>
+    
+    <body>
+        
+        <h1>JQuery kokeilua</h1>
+        <p>Tämän tekstin voit piilottaa</p>
+    <button id="piilota">Piilota teksti</button>
+        <button id="nayta">Näytä teksti</button>
+    
+   <!-- jQuery -->
+  <script 
+  src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>   
+   <script>
+    $("#piilota").click(function(){
+    $("p").hide(500);
+        $this=$(this);
+      $this
+      .siblings('button')
+      .removeAttr('disabled')
+      .end()
+      .attr('disabled','disabled');
+         
+         } );
+    $("#nayta").click(function(){
+    $("p").show(500); 
+        $this=$(this);
+      $this
+      .siblings('button')
+      .removeAttr('disabled')
+      .end()
+      .attr('disabled','disabled');
+        } );
+        
+        </script>     
+        
+        
+        
+    </body>
+    

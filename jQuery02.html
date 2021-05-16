@@ -1,0 +1,43 @@
+<DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oppimistehtävä 4</title>
+    
+        </head>
+    
+    
+    
+    
+    
+    <body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        
+<button id="painike1">Lisää otsikko</button>
+<button id="painike2">Lisää tekstikappale</button>
+        
+        
+<div id="div"></div>
+
+        <script>
+$(document).ready(function(){
+    
+    
+    $("#painike1").click(function(){
+        $("<h1>Otsikko</h1>").appendTo("#div");
+    });
+    
+    
+    
+      $("#painike2").click(function(){
+        $("#div").append("<p>Tässä on tekstiä</p>");
+    });
+    
+    
+});
+</script>
+
+        
+    </body>

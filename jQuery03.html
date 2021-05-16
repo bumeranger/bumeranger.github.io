@@ -1,0 +1,30 @@
+<DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="vaalea.css" rel="stylesheet" type="text/css">  
+     <title>Oppimistehtävä 4</title>
+            </head>
+    
+    <body>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        
+    <h1>jQuery kokeilua</h1>
+<button data-file="vaalea.css">Vaalea sivu</button>
+<button data-file="tumma.css">Tumma sivu</button> 
+        
+   <script>
+  (function(){
+       var linkki=$('link');
+       $('button').on('click', function(){
+       // HTML5 data attribuutin käyttö
+       var tyyli=$(this).data('file');
+       linkki.attr('href',tyyli); // asettaa arvon attribuutille
+       });
+  })();
+</script>     
+        
+        
+    </body>
