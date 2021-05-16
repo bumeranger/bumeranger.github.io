@@ -1,0 +1,42 @@
+<DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oppimistehtävä 4</title>
+    
+        </head>
+    
+    <body>
+        
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>   
+        
+        
+        <button id="animoi">Klikkaa!</button>
+     <div id="boksi">Moi!</div>   
+  <style>
+#boksi {padding:20px; width:100px; height:30px; background-color:navy; color:orange;font-size:24px; position:relative; top:50px; text-align:center;margin-bottom:100px;}
+</style>
+        
+   <script>  
+ $(document).ready(function(){ 
+    $("#animoi").click(function(){  
+       var div=$("div"); 
+       div.animate({height:'300px',opacity:'0.4'},"slow"); 
+       div.animate({width:'300px',opacity:'0.8'},"slow"); 
+       div.animate({height:'100px',opacity:'0.4'},"slow"); 
+       div.animate({width:'100px',opacity:'0.8'},"slow");
+        
+        
+div.delay(1200).animate({left:'200px'},"slow");
+div.animate({fontSize:'3em'},"slow");
+        
+div.delay(1200).animate({left:'0px'},"fast");
+div.animate({fontSize:'2em'},"slow");        
+        
+     });
+  })
+</script>     
+        
+    </body>
