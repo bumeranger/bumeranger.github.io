@@ -1,0 +1,22 @@
+ .fakeimg {
+    height: 100px;
+    background: #aaa;
+  }
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px; }
+
+#demo{
+     padding-top: 10px;
+    
+}
+.container{
+    
+    margin-top: 50px;
+}
+body{
+    
+    background-color: lightgray;
+}
